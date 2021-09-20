@@ -9,11 +9,3 @@ For the reference, we are following these research papers:
 
 1. Non‑invasive cuff‑less blood pressure estimation using
 a hybrid deep learning model(<a href="https://link.springer.com/article/10.1007/s11082-020-02667-0">Link</a>).
-2. The use of photoplethysmography for assessing hypertension(<a href="https://www.nature.com/articles/s41746-019-0136-7">Link</a>).
-
-
-## Steps to run code
-1. `pip install -r requirements.txt` : Installs the required python libraries
-2. `python ./preprocessing/feature_extraction.py` : Run the Feature extraction file and exports *features_20.csv* in output folder.
-3. `python ./preprocessing/PTT_final.py` : Process the data points and find PTT (Pulse Transit Time) and exports *ptt_feature.csv* in output folder.
-4. You will have the required csvs.
