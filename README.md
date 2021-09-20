@@ -9,4 +9,3 @@ For the reference, we are following these research papers:
 
 1. Non‑invasive cuff‑less blood pressure estimation using
 a hybrid deep learning model(<a href="https://link.springer.com/article/10.1007/s11082-020-02667-0">Link</a>).
-2. The use of photoplethysmography for assessing hypertension(<a href="https://www.nature.com/articles/s41746-019-0136-7">Link</a>).
