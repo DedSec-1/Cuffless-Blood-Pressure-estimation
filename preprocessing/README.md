@@ -3,7 +3,7 @@
 ### Workflow Tracker [In - progress] 
 
 1. [x] Data fetching
-2. [x] Data Visualisation
+2. [x] Data Virtualization
 3. [ ] Database creation
 4. [ ] Sample BP Measurement
 
