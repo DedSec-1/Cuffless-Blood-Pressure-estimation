@@ -95,7 +95,7 @@ for i in range(10):
         for i in range (len(peaks)-1):
             RR_Wave_duration.append(location[i+1]-location[i])
             s_no.append(i)
-            
+            print(s_no[i],' ',RR_Wave_duration[i])
             
             
 
