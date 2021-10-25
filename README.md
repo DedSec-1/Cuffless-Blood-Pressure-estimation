@@ -1,4 +1,4 @@
-# Heart-Disease-Prediction
+# Cuffless BP Estimation
 
 <img align="right" width="210" height="210" src="https://image.slidesharecdn.com/cufflessbloodpressuremonitoringfinalppt-150614095256-lva1-app6892/85/cuffless-blood-pressure-monitoring-project-1-320.jpg?cb=1434275625">
 
