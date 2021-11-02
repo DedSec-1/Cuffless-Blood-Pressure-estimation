@@ -2,17 +2,13 @@ import numpy as np
 from numpy.lib.stride_tricks import sliding_window_view
 from scipy import signal
 import os
-
-
-csv_dir_path = "./data/Part_4/"
+import glob
 
 csv_paths = []
-
-for patNum in range(1,16):
-    csv_paths.append(os.path.join(csv_dir_path, str(patNum)+".csv"))
+csv_paths = glob.glob("../data/Part_4/*.csv")
 
 
-for i in range(15):
+for i in range(len(csv_paths)):
     # Reading from CSV
     Y = np.genfromtxt(csv_paths[i], delimiter=',')
     O1P = Y[0, :1000] # PPG
@@ -68,5 +64,5 @@ for i in range(15):
     Diff = Lag[I] / Fs
 
     # Writing diff to csv
-    with open("./output/ptt_feature.csv", "a") as f:
+    with open("../FinalDataset/ptt.csv", "a") as f:
         f.write(f"{abs(Diff)}\n")
