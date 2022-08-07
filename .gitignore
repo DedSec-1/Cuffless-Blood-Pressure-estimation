@@ -2,4 +2,8 @@
 __pycache__
 output/*
 cleaned
+<<<<<<< HEAD
 *.ckpt
+=======
+Complete_Data/*
+>>>>>>> 8fb852dae401970aa8a57dc0e4c89b8398bd5c7f
